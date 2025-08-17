@@ -1,3 +1,119 @@
-body{
-    margin: 0px;
+ .main {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            height: 550px;
+            width: 1240px;
+            background-color:rgba(0, 0, 0, 0.42);
+            padding-bottom: 30px;
+            border-radius: 20px;
+        }
+
+        .sub-class-1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-left: 30px;
+            margin-top: 10px;
+        }
+
+        .sub-class-2 {
+            display: flex;
+            flex-direction: column;
+            margin-top: px;
+        }
+        
+        .result{
+            margin-top: 190px;
+        }
+        
+p{
+    color: whitesmoke;
+    height: 30px;
+    background-color: black;
+    border-radius: 5%;
+    padding-top: 10px;
+    padding-left: 62px;
+
+}
+        button {
+            width: 150px;
+            height: 30px;
+            cursor: pointer;
+            color: white;
+            background-color: green;
+        }
+
+        .sub-class-3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-left: 30px;
+            margin-top: 10px;
+        }
+        .card1 {
+            height: 160px;
+            width: 170px;
+            background-color: whitesmoke;
+            border-radius: 10px;
+            padding-left: 20px;
+            padding-top: 10px;
+            margin-top: 10px;
+        }
+
+        .card2 {
+            height: 160px;
+            width: 170px;
+            background-color: whitesmoke;
+            border-radius: 10px;
+            padding-left: 20px;
+            padding-top: 10px;
+            margin-top: 20px;
+        }
+
+        .card3 {
+            height: 160px;
+            width: 170px;
+            background-color: white;
+            border-radius: 10px;
+            padding-left: 20px;
+            padding-top: 10px;
+            margin-top: 20px;
+        }
+
+        .img {
+            height: 150px;
+    }
+@media (max-width: 768px) {
+    .main {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .sub-class-1, .sub-class-3 {
+        margin-left: 20px;
+    }
+
+    .card1, .card2, .card3 {
+        width: 120px;
+        height: 120px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+
+    .img {
+        height: 100px;
+    }
+
+    .result {
+        margin-top: 50px;
+    }
+
+    p {
+        padding-left: 0;
+        text-align: center;
+    }
 }
